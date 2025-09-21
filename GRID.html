@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .grid-item{
+            background-color: blue;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 20px;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+       <h1> <div class="grid-item grid-item-1">Medicine</div></h1>
+         
+       <h1><div class="grid-item grid-item-2">Pharmacy</div></h1>
+         
+        <h1><div class="grid-item grid-item-3">Nursing</div></h1>
+
+        <h1><div class="grid-item grid-item-4">Engineering</div></h1>
+
+        <h1><div class="grid-item grid-item-5">Teaching</div></h1> 
+
+        <h1><div class="grid-item grid-item-6">Law</div></h1>        
+    </div>
+</div>
+    
+</body>
+</html>
